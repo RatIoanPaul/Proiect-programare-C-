@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1684952895 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\article.cpp
+	"Article.h"
+
+1684952764 c:\users\ionut\proiect-programare-c-\proiect_c++\include\article.h
+	<Post.h>
+
+1684951334 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\coment.cpp
+	"Coment.h"
+
+1684951334 c:\users\ionut\proiect-programare-c-\proiect_c++\include\coment.h
+
+1684951973 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\post.cpp
+	"Post.h"
+	<string.h>
+
+1684952714 c:\users\ionut\proiect-programare-c-\proiect_c++\include\post.h
+	<string>
+
+1684952779 source:c:\users\ionut\proiect-programare-c-\proiect_c++\main.cpp
+	<iostream>
+	<Article.h>
+
