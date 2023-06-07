@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1686136240 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\article.cpp
+1686165471 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\article.cpp
 	"article.h"
 	<iostream>
 
-1686136223 c:\users\ionut\proiect-programare-c-\proiect_c++\include\article.h
+1686162310 c:\users\ionut\proiect-programare-c-\proiect_c++\include\article.h
 	"post.h"
 
 1684951334 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\coment.cpp
@@ -11,13 +11,22 @@
 
 1684951334 c:\users\ionut\proiect-programare-c-\proiect_c++\include\coment.h
 
-1686136184 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\post.cpp
+1686166268 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\post.cpp
 	"post.h"
 
-1686136127 c:\users\ionut\proiect-programare-c-\proiect_c++\include\post.h
+1686166270 c:\users\ionut\proiect-programare-c-\proiect_c++\include\post.h
 	<string>
 
-1684952779 source:c:\users\ionut\proiect-programare-c-\proiect_c++\main.cpp
+1686166159 source:c:\users\ionut\proiect-programare-c-\proiect_c++\main.cpp
 	<iostream>
-	<Article.h>
+	<string>
+	<vector>
+	<fstream>
+	<windows.h>
+	<sstream>
+	"Article.h"
+	"Comment.h"
+
+1686136261 c:\users\ionut\proiect-programare-c-\proiect_c++\include\comment.h
+	"post.h"
 

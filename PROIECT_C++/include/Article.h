@@ -10,7 +10,7 @@ private:
     int dislike;
 
 public:
-    Article(int id, const std::string& author, const std::string& content,
+    Article(const int id, const std::string& author, const std::string& content, const std::string& title,
             int like, int love, int dislike);
 
     int getLike() const;

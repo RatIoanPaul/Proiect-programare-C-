@@ -1,9 +1,9 @@
 #include "article.h"
 #include <iostream>
 
-Article::Article(int id, const std::string& author, const std::string& content,
+Article::Article(const int id, const std::string& author, const std::string& content, const std::string& title,
                  int like, int love, int dislike)
-    : Post(id, author, content), like(like), love(love), dislike(dislike) {}
+    : Post(id, author, content, title), like(like), love(love), dislike(dislike) {}
 
 int Article::getLike() const {
     return like;
@@ -31,6 +31,7 @@ void Article::setDislike(int dislike) {
 
 void Article::display() const {
     std::cout << "ID: " << getId() << std::endl;
+    std::cout << "Title: " << getTitle() << std::endl;
     std::cout << "Author: " << getAuthor() << std::endl;
     std::cout << "Content: " << getContent() << std::endl;
     std::cout << "Likes: " << getLike() << std::endl;
