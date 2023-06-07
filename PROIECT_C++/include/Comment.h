@@ -1,19 +1,18 @@
 #ifndef COMMENT_H
 #define COMMENT_H
 
+#include "post.h"
 
-class Comment
-{
-    public:
-        Comment();
-        Comment(int articleId, Post post);
-        virtual ~Comment();
+class Comment : public Post {
+private:
+    int articleId;
 
-    protected:
+public:
+    Comment(int id, const std::string& author, const std::string& content, int articleId);
 
-    private:
-        int articleId;
-        Post post;
+    int getArticleId() const;
+
+    void display() const override;
 };
 
-#endif 
+#endif

@@ -1,25 +1,27 @@
-#include <Post.h>
-
 #ifndef ARTICLE_H
 #define ARTICLE_H
 
+#include "post.h"
 
-class Article : Post
-{
-    public:
-        Article();
-        Article(int like, int love, int dislike, Post post);
-        virtual ~Article();
-        setLike(int like);
-        getLike();
+class Article : public Post {
+private:
+    int like;
+    int love;
+    int dislike;
 
-    protected:
+public:
+    Article(int id, const std::string& author, const std::string& content,
+            int like, int love, int dislike);
 
-    private:
-        int like;
-        int love;
-        int dislike;
-        Post post;
+    int getLike() const;
+    int getLove() const;
+    int getDislike() const;
+
+    void setLike(int like);
+    void setLove(int love);
+    void setDislike(int dislike);
+
+    void display() const override;
 };
 
-#endif // ARTICLE_H
+#endif

@@ -1,18 +1,16 @@
-#include "Comment.h"
-#include "Comment.h"
+#include "comment.h"
+#include <iostream>
 
-Comment::Comment()
-{
-    //ctor
+Comment::Comment(int id, const std::string& author, const std::string& content, int articleId)
+    : Post(id, author, content), articleId(articleId) {}
+
+int Comment::getArticleId() const {
+    return articleId;
 }
 
-Comment::~Comment()
-{
-    //dtor
-}
-
-Comment::Comment(int articleId, Post post)
-{
-    this->articleId = articleId;
-    this->post = post;
+void Comment::display() const {
+    std::cout << "ID: " << getId() << std::endl;
+    std::cout << "Author: " << getAuthor() << std::endl;
+    std::cout << "Content: " << getContent() << std::endl;
+    std::cout << "Article ID: " << getArticleId() << std::endl;
 }

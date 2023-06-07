@@ -1,29 +1,39 @@
-#include "Article.h"
+#include "article.h"
+#include <iostream>
 
-Article::Article()
-{
-    //ctor
+Article::Article(int id, const std::string& author, const std::string& content,
+                 int like, int love, int dislike)
+    : Post(id, author, content), like(like), love(love), dislike(dislike) {}
+
+int Article::getLike() const {
+    return like;
 }
 
-Article::Article(int like, int love, int dislike, Post post)
-{
+int Article::getLove() const {
+    return love;
+}
+
+int Article::getDislike() const {
+    return dislike;
+}
+
+void Article::setLike(int like) {
     this->like = like;
+}
+
+void Article::setLove(int love) {
     this->love = love;
+}
+
+void Article::setDislike(int dislike) {
     this->dislike = dislike;
-    this->post = post;
 }
 
-Article::~Article()
-{
-    //dtor
-}
-
-Article::setLike(int like)
-{
-    this->like = like;
-}
-
-Article::getLike()
-{
-    return this->like;
+void Article::display() const {
+    std::cout << "ID: " << getId() << std::endl;
+    std::cout << "Author: " << getAuthor() << std::endl;
+    std::cout << "Content: " << getContent() << std::endl;
+    std::cout << "Likes: " << getLike() << std::endl;
+    std::cout << "Love: " << getLove() << std::endl;
+    std::cout << "Dislikes: " << getDislike() << std::endl;
 }
