@@ -30,3 +30,29 @@
 1686136261 c:\users\ionut\proiect-programare-c-\proiect_c++\include\comment.h
 	"post.h"
 
+1686166939 source:c:\users\uvt\onedrive - e-uvt.ro\documents\github\proiect-programare-c-\proiect_c++\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	<windows.h>
+	<sstream>
+	"Article.h"
+	"Comment.h"
+
+1686166939 c:\users\uvt\onedrive - e-uvt.ro\documents\github\proiect-programare-c-\proiect_c++\include\article.h
+	"post.h"
+
+1686166939 c:\users\uvt\onedrive - e-uvt.ro\documents\github\proiect-programare-c-\proiect_c++\include\post.h
+	<string>
+
+1686154947 c:\users\uvt\onedrive - e-uvt.ro\documents\github\proiect-programare-c-\proiect_c++\include\comment.h
+	"post.h"
+
+1686166939 source:c:\users\uvt\onedrive - e-uvt.ro\documents\github\proiect-programare-c-\proiect_c++\src\article.cpp
+	"article.h"
+	<iostream>
+
+1686166939 source:c:\users\uvt\onedrive - e-uvt.ro\documents\github\proiect-programare-c-\proiect_c++\src\post.cpp
+	"post.h"
+
