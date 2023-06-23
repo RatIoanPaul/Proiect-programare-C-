@@ -14,10 +14,10 @@
 1686166268 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\post.cpp
 	"post.h"
 
-1686166270 c:\users\ionut\proiect-programare-c-\proiect_c++\include\post.h
+1686237106 c:\users\ionut\proiect-programare-c-\proiect_c++\include\post.h
 	<string>
 
-1686166159 source:c:\users\ionut\proiect-programare-c-\proiect_c++\main.cpp
+1686237473 source:c:\users\ionut\proiect-programare-c-\proiect_c++\main.cpp
 	<iostream>
 	<string>
 	<vector>
@@ -55,4 +55,8 @@
 
 1686166939 source:c:\users\uvt\onedrive - e-uvt.ro\documents\github\proiect-programare-c-\proiect_c++\src\post.cpp
 	"post.h"
+
+1686237106 source:c:\users\ionut\proiect-programare-c-\proiect_c++\src\comment.cpp
+	"comment.h"
+	<iostream>
 

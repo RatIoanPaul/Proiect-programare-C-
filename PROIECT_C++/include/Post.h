@@ -12,7 +12,7 @@ protected:
 
 public:
     Post(const int id, const std::string& author, const std::string& content,const std::string& title);
-    Post(int id, const std::string& author, const std::string& content);
+    Post(const int id, const std::string& author, const std::string& content);
     virtual ~Post() = default;
 
     int getId() const;

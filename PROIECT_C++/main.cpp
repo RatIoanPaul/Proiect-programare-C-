@@ -35,6 +35,11 @@ void updateArticleFile(std::vector<Article> newArticles)
     }
 }
 
+void updateCommentFile() {
+    std::ofstream file("data/comment_data.txt");
+    
+}
+
 void addArticle()
 {
     std::string author, title, content;
@@ -120,6 +125,14 @@ void addComment(int id) {
     std::string author;
     std::cin >> author;
 
+    int maxId = 0;
+    for (int i = 0; i < comments.size(); i++) {
+        if (comments[i].getId() > maxId) {
+            maxId = comments[i].getId() + 1;
+        }
+    }
+    Comment comment = Comment(maxId, content, author, id);
+    comments.push_back(comment);
 
 }
 

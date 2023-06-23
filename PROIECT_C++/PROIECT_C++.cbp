@@ -36,9 +36,11 @@
 		</Compiler>
 		<Unit filename="include/Article.h" />
 		<Unit filename="include/Coment.h" />
+		<Unit filename="include/Comment.h" />
 		<Unit filename="include/Post.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Article.cpp" />
+		<Unit filename="src/Comment.cpp" />
 		<Unit filename="src/Post.cpp" />
 		<Extensions />
 	</Project>

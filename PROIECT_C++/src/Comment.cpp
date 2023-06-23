@@ -1,7 +1,7 @@
 #include "comment.h"
 #include <iostream>
 
-Comment::Comment(int id, const std::string& author, const std::string& content, int articleId)
+Comment::Comment(const int id, const std::string& author, const std::string& content, int articleId)
     : Post(id, author, content), articleId(articleId) {}
 
 int Comment::getArticleId() const {
